@@ -76,6 +76,7 @@ import { default as createMemoryHistory } from './createMemoryHistory';
 import { createLocation, locationsAreEqual } from './LocationUtils';
 import { parsePath, createPath } from './PathUtils';
 
+// A new comment
 // Global usage, without modules, needs the small trick, because lib.d.ts
 // already has `history` and `History` global definitions:
 // var createHistory = ((window as any).History as HistoryModule.Module).createHistory;
@@ -95,3 +96,4 @@ export * from './createMemoryHistory';
 export { createLocation, locationsAreEqual } from './LocationUtils';
 export { parsePath, createPath } from './PathUtils';
 export { createBrowserHistory, createHashHistory, createMemoryHistory };
+
