@@ -79,6 +79,7 @@ import { parsePath, createPath } from './PathUtils';
 // Global usage, without modules, needs the small trick, because lib.d.ts
 // already has `history` and `History` global definitions:
 // var createHistory = ((window as any).History as HistoryModule.Module).createHistory;
+// WHY
 export interface Module {
     createBrowserHistory: typeof createBrowserHistory;
     createHashHistory: typeof createHashHistory;
