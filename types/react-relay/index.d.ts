@@ -2,6 +2,7 @@
 // Project: https://github.com/facebook/relay, https://relay.dev
 // Definitions by: Robert Balicki <https://github.com/rbalicki2>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
-// TypeScript Version: 3.4
+// TypeScript Version: 3.7
 
-import * as React from 'react';
+export * from './hooks';
+export * from './legacy';
