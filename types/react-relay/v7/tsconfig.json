@@ -11,7 +11,7 @@
         "strictFunctionTypes": true,
         "baseUrl": "../",
         "typeRoots": [
-            "../"
+            "../../"
         ],
         "types": [],
         "noEmit": true,
@@ -24,7 +24,6 @@
     "files": [
         "index.d.ts",
         "test/react-relay-tests.tsx",
-        "test/relay-experimental-tests.tsx",
-        "hooks.d.ts"
+        "test/relay-experimental-tests.tsx"
     ]
 }

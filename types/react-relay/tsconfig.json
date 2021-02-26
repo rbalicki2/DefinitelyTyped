@@ -19,8 +19,6 @@
         "jsx": "react"
     },
     "files": [
-        "index.d.ts",
-        "hooks.d.ts",
-        "legacy.d.ts"
+        "index.d.ts"
     ]
 }
