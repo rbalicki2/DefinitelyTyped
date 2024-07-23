@@ -120,6 +120,7 @@ export {
     ReaderFragment,
     ReaderInlineDataFragment,
     ReaderInlineDataFragmentSpread,
+    ReaderInlineFragment,
     ReaderLinkedField,
     ReaderModuleImport,
     ReaderPaginationMetadata,
